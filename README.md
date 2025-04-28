@@ -4,7 +4,7 @@
 
 
 
-# Project Title
+# MalDev
 
 Maliglitch is a malware written in c++ that attempts to hide from debugging, execute shellcode, and establish persistence on the system.
 
