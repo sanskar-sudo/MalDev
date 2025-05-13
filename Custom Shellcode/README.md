@@ -166,4 +166,3 @@ CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)execMem, NULL, 0, NULL);
 3. **Flexibility**: Can be adapted for various payload types
 4. **Stealth**: No reliance on well-known frameworks
 
-> **Important**: These techniques should only be used for authorized security testing and research purposes.
