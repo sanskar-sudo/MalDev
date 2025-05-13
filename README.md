@@ -6,16 +6,3 @@
 
 # MalDev
 
-Maliglitch is a malware written in c++ that attempts to hide from debugging, execute shellcode, and establish persistence on the system.
-
-
-
-## Features
-
-- Detection of Debugging: The UnderTheMicroscope() function checks whether the program is being debugged by examining the BeingDebugged field of the Process Environment Block (PEB) structure.
-
-- Shellcode Execution: The code defines a shellcode array and allocates memory to execute it. The shellcode is copied into the allocated memory and then executed by creating a new thread.
-
-- Persistence Mechanism Installation: The InstallPersistence() function adds the current executable to the Windows registry startup programs, ensuring it runs every time the system boots.
-
-- Console Window Hiding: The console window is hidden using FreeConsole().
